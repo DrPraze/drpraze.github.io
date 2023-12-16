@@ -1221,7 +1221,7 @@ section .container {
 /* adjust text overlay in desktop view */
 @media screen and (min-width: 768px) {
     .hero-overlay {
-        top: 20%; /* Adjust as needed */
+        top: 15%; /* Adjust as needed */
     }
 }
 
@@ -1233,7 +1233,7 @@ section .container {
    overflow-x: auto;
    overflow-y: hidden;
    grid-template-columns: repeat(auto-fill, minmax(auto, 0));
-   grid-gap: 10px;
+   grid-gap: 20px;
    align-self: center;
    width: 90%;
 }
